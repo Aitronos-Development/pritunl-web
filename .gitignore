@@ -11,3 +11,8 @@ Thumbs.db
 *.egg-info
 .sass-cache
 /pritunl-web
+
+# Environment files
+.env
+.env.local
+.env.*.local
