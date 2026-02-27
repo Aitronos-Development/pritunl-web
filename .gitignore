@@ -16,3 +16,12 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Environment directory
+.env_directory/local/.env
+.env_directory/production/*.env
+.env_directory/staging/*.env
+.env_directory/development/*.env
+!.env_directory/production/examples/*.env.example
+!.env_directory/staging/examples/*.env.example
+!.env_directory/development/examples/*.env.example
